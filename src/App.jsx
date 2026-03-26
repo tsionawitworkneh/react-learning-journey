@@ -7,6 +7,7 @@ import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
+import MyComponet from './MyComponent.jsx'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <List />
 
       <ProfilePicture />
+      <MyComponet />
     </>
   );  
 }
