@@ -8,6 +8,9 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
 import MyComponet from './MyComponent.jsx'
+import ColorPicker from './ColorPicker.jsx'
+import CarComponent from './CarComponent.jsx'
+
 
 function App() {
   return (
@@ -30,6 +33,10 @@ function App() {
 
       <ProfilePicture />
       <MyComponet />
+
+      <ColorPicker />
+
+      <CarComponent />
     </>
   );  
 }
