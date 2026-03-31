@@ -10,6 +10,7 @@ import ProfilePicture from './ProfilePicture.jsx'
 import MyComponet from './MyComponent.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import CarComponent from './CarComponent.jsx'
+import ToDoList from './ToDoList.jsx'
 
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
       <ColorPicker />
 
       <CarComponent />
+
+      <ToDoList />
     </>
   );  
 }

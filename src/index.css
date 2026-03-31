@@ -128,10 +128,11 @@ ul{
 li{
     list-style: none;
     margin: 5px;
+    display: flex;
+    gap: 20px;
 }
 
 .dlt-btn{
-    margin-left: 15px;
     padding: 6px;
     border: none;
     background-color: hsl(358, 76%, 50%);
